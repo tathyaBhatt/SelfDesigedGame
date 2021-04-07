@@ -15,7 +15,7 @@ class Form {
   }
 
   display(){
-    this.title.html("Dragon Clash");
+    this.title.html("Drago Clash");
     this.title.position(displayWidth/2 - 50, 0);
 
     this.input.position(displayWidth/2 - 40 , displayHeight/2 - 80);
