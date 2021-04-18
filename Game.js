@@ -31,7 +31,10 @@ class Game {
     pDragon = createSprite(displayWidth-200, displayHeight/2);
     pDragon.addImage("playerImage",pDragonImg);
     pDragon.scale=0.4;
-    
+    vDragon = createSprite(displayWidth-700, displayHeight/2);
+    vDragon.addImage("villianImage",vDragonImg);
+    vDragon.scale=0.4;
+
   }
 
   play(){
