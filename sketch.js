@@ -7,11 +7,13 @@ var form, player, game;
 var welcomeImg;
 var bg, backgroundImg;
 var pDragon, vDragon;
-var pDragonImg;
+var pDragonImg, vDragonImg
 
 function preload(){
    welcomeImg = loadImage("hello.jpg");
    pDragonImg = loadImage("ye.png")
+   vDragonImg = loadImage("download.png")
+   
   getBackgroundImg();
 }
 function setup(){
